@@ -13,7 +13,7 @@ const displayMobileData = (phones) => {
     mobileDiv.classList.add("col");
     mobileDiv.innerHTML = `
                 <div class="card h-100">
-                <img src="${phone.image}" class="card-img-top" alt="...">
+                <img class="image" src="${phone.image}" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">${phone.phone_name}</h5>
                   <p class="card-text">This is the section of I phones, thus phones are available in our market. If you wanna buy them may you knock with use.</p>
